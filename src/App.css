@@ -1,0 +1,73 @@
+/* Container Styling */
+.container {
+  margin-top: 40px;
+  padding: 90px;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animated Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 50%, #ff9a9e 100%);
+
+  animation: gradientAnimation 10s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.timetable-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.timetable-table th,
+.timetable-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.timetable-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+}
+
+.timetable-table td {
+  background-color: #ffffff;
+}
+
+.timetable-table tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.timetable-table tr:hover td {
+  background-color: #e9e9e9;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.my-4 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
